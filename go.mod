@@ -62,16 +62,16 @@ require (
 	github.com/stretchr/testify v1.10.0
 	github.com/ugorji/go/codec v1.2.6
 	github.com/ulikunitz/xz v0.5.14 // indirect
-	golang.org/x/crypto v0.46.0
+	golang.org/x/crypto v0.51.0
 	golang.org/x/mobile v0.0.0-20210901025245-1fde1d6c3ca1
-	golang.org/x/mod v0.30.0
-	golang.org/x/net v0.48.0
-	golang.org/x/sync v0.19.0
-	golang.org/x/sys v0.39.0 // indirect
-	golang.org/x/term v0.38.0
-	golang.org/x/text v0.32.0 // indirect
+	golang.org/x/mod v0.35.0
+	golang.org/x/net v0.55.0
+	golang.org/x/sync v0.20.0
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/term v0.43.0
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
-	golang.org/x/tools v0.39.0
+	golang.org/x/tools v0.44.0
 	google.golang.org/api v0.150.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
@@ -151,8 +151,6 @@ require (
 	google.golang.org/grpc v1.79.3 // indirect
 )
 
-go 1.24.0
-
-toolchain go1.24.2
+go 1.25.0
 
 retract v0.5.0 // v0.5.0 of the SDK was broken because of the replace statement for go-cty
